@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Accord } from "../Assets/Data/Accord";
-import { Main, About, Animate, Ul } from "../Assets/Styled";
+import { Main, About, Animate, Ul, Skill, P } from "../Assets/Styled";
 
 const Index = () => {
 
@@ -10,23 +10,6 @@ const Index = () => {
 
     return (
         <Main>
-            <Animate>
-                <div className="1">
-                    HTML
-                </div>
-                <div className="2">
-                    CSS
-                </div>
-                <div className="3">
-                    JAVASCRIPT
-                </div>
-                <div className="4">
-                    REACT
-                </div>
-                <div className="5">
-                    NODE.js
-                </div>
-            </Animate>
             <About>
                 <div tabIndex={2} onClick={() => toggle(!click)}>
                     <div>
@@ -43,6 +26,23 @@ const Index = () => {
                     </Ul>
                 )}
             </About>
+            <Animate>
+                <Skill className="1">
+                    <P>HTML</P>
+                </Skill>
+                <Skill className="2">
+                    <P>CSS</P>
+                </Skill>
+                <Skill className="3">
+                    <P>JAVASCRIPT</P>
+                </Skill>
+                <Skill className="4">
+                    <P>REACT</P>
+                </Skill>
+                <Skill className="5">
+                    <P>NODE.js</P>
+                </Skill>
+            </Animate>
         </Main>
     );
 }

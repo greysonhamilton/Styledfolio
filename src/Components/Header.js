@@ -5,29 +5,32 @@ const Heading = styled.div`
 
     display: flex;
     flex-direction: column;
-    height: 15vh;
+    width: 12%;
+    background-color: rgb(19, 19, 57,0.7);
+    margin: 3% 0 1% 80%;
+    padding: 1%;
+    height: 2vh;
 
 `;
 
 const Container = styled.div`
 
     display: flex;
-    margin: 3% 2% 1% 80%;
+    width: 100%;
     padding: 1%;
     color: white;
-    background-color: rgb(19, 19, 57,0.7);
     justify-content: center;
-
+    
 `;
 
 const Ul = styled.ul `
 
     display: flex;
     flex-direction: column;
-    align-self: flex-end;
-    background-color: rgb(19, 19, 57,0.7);
-    margin: 8% 2% 3% 80%;
+    width: 12%;
+    margin: 2.25% 0 0 -1%;
     padding: 1%;
+    background-color: rgb(19, 19, 57,0.7);
     position: absolute;
 
 `;
@@ -35,6 +38,7 @@ const Ul = styled.ul `
 const Li = styled.li`
 
     display: flex;
+    justify-content: center;
     
 `;
 
@@ -65,7 +69,7 @@ const Header = ({ title, items }) => {
                 <Ul>
                     {items.map((item, i) => (
                         <Li key={item.id}>
-                                <span><Anchor href={item.url} alt={item.title} target="_blank" rel="noreferrer">{item.title}</Anchor></span>
+                                <Anchor href={item.url} alt={item.title} target="_blank"rel="noreferrer">{item.title}</Anchor>
                         </Li>
                     ))}
                 </Ul>

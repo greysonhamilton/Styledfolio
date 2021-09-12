@@ -36,8 +36,26 @@ export const Main=styled.div `
 export const Animate=styled.div `
 
     display: flex;
-    margin: 0 1% 0 1%;
+    flex-direction: column;
+    margin: 0 1% 0 65%;
+    width: 40%;
+    justify-content: space evenly;
     height: 39vh;
+
+`;
+
+export const Skill = styled.div`
+
+    text-align: center;
+    height: 5vh;
+
+`;
+
+export const P = styled.p`
+
+    width: 34%;
+    color: white;
+    background-color: rgb(0,0,0,0.5);
 
 `;
 
