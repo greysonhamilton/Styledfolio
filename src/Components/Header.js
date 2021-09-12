@@ -4,12 +4,19 @@ import styled from 'styled-components';
 const Heading = styled.div`
 
     display: flex;
+    flex-direction: column;
+    height: 15vh;
 
 `;
 
 const Container = styled.div`
 
     display: flex;
+    margin: 3% 2% 1% 80%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(19, 19, 57,0.7);
+    justify-content: center;
 
 `;
 
@@ -17,6 +24,11 @@ const Ul = styled.ul `
 
     display: flex;
     flex-direction: column;
+    align-self: flex-end;
+    background-color: rgb(19, 19, 57,0.7);
+    margin: 8% 2% 3% 80%;
+    padding: 1%;
+    position: absolute;
 
 `;
 
@@ -30,20 +42,11 @@ const Anchor = styled.a`
 
     color: white;
     text-decoration: none;
-
-    &:focus, &:visited &:link &:active {
-
+    
+    &:link, &:visited {
         text-decoration: none;
-        color: black;
-
+        color: white;
     }
-
-    &:hover {
-
-        text-decoration: none;
-        color: blue;
-    }
-
 `;
 
 const Header = ({ title, items }) => {

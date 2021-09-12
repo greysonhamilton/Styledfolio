@@ -11,7 +11,7 @@ function App() {
   return (
 
     <Build>
-      <Header title="Projects" items={Menu}/>
+      <Header title="Projects" items={Menu} />
       <Router>
       <Route to="/" component={Index}>
         <Index />

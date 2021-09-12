@@ -10,8 +10,8 @@ export const Build=styled.div`
     background-attachment: scroll;
     background-position: right bottom;
     background-size: cover;
-    height: 100vh;
     width: 100%;
+    height: 100vh;
 `;
 
 export const H1=styled.h1 `
@@ -30,18 +30,14 @@ export const Main=styled.div `
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 
 `;
 
 export const Animate=styled.div `
 
     display: flex;
-    flex-wrap: wrap;
-    align-content: stretch;
-    margin: 20% 0 0 20%;
+    margin: 0 1% 0 1%;
+    height: 39vh;
 
 `;
 
@@ -60,16 +56,19 @@ export const Footer=styled.div `
 export const About=styled.div `
 
     display: flex;
-    position: relative;
-    margin: 20% 0 10%;
-    cursor: pointer;
+    flex-direction: column;
+    margin: 0 2% 0;
+    color: white;
+    height: 37vh;
 
 `;
 
 export const Ul=styled.ul `
 
     display: flex;
-    flex-direction: column;
+    width: 46%;
+    margin: 3% 0.5%;
+    position: absolute;
 
 `;
 

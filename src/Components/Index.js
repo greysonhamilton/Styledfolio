@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Accord } from "../Assets/Data/Accord";
-// import { Main, About, Animate, Div } from "../Assets/Styled";
+import { Main, About, Animate, Ul } from "../Assets/Styled";
 
 const Index = () => {
 
@@ -9,8 +9,8 @@ const Index = () => {
     const toggle = () => setClick(!click);
 
     return (
-        <div>
-            <div>
+        <Main>
+            <Animate>
                 <div className="1">
                     HTML
                 </div>
@@ -26,24 +26,24 @@ const Index = () => {
                 <div className="5">
                     NODE.js
                 </div>
-            </div>
-            <div>
+            </Animate>
+            <About>
                 <div tabIndex={2} onClick={() => toggle(!click)}>
                     <div>
                         <p>{click ? 'Greyson Hamilton' : 'Greyson Hamilton...'}</p>
                     </div>
                 </div>
                 {click && (
-                    <ul>
+                    <Ul>
                         {Accord.map((item, i) => (
                             <li key={item.id}>
                                 <span>{item}</span>
                             </li>
                         ))}
-                    </ul>
+                    </Ul>
                 )}
-            </div>
-        </div>
+            </About>
+        </Main>
     );
 }
 
