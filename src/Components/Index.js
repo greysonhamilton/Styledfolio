@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Accord } from "../Assets/Data/Accord";
-import { Main, H1, About, Animate, Div } from "../Assets/Styled";
+import { Main, About, Animate, Ul } from "../Assets/Styled";
 
 const Index = () => {
 
@@ -9,43 +9,41 @@ const Index = () => {
     const toggle = () => setClick(!click);
 
     return (
-        <>
-            <div>
-                <div tabIndex={0} onClick={() => toggle(!click)}>
-                    <About>
+        <Main>
+            <Animate>
+                <div className="1">
+                    HTML
+                </div>
+                <div className="2">
+                    CSS
+                </div>
+                <div className="3">
+                    JAVASCRIPT
+                </div>
+                <div className="4">
+                    REACT
+                </div>
+                <div className="5">
+                    NODE.js
+                </div>
+            </Animate>
+            <About>
+                <div tabIndex={2} onClick={() => toggle(!click)}>
+                    <div>
                         <p>{click ? 'Greyson Hamilton' : 'Greyson Hamilton...'}</p>
-                    </About>
+                    </div>
                 </div>
                 {click && (
-                    <ul>
+                    <Ul>
                         {Accord.map((item, i) => (
                             <li key={item.id}>
-                                <button>
-                                    <span>{item}</span>
-                                </button>
+                                <span>{item}</span>
                             </li>
                         ))}
-                    </ul>
+                    </Ul>
                 )}
-                <Animate>
-                    <Div className="1">
-                        HTML
-                    </Div>
-                    <Div className="2">
-                        CSS
-                    </Div>
-                    <Div className="3">
-                        JAVASCRIPT
-                    </Div>
-                    <Div className="4">
-                        REACT
-                    </Div>
-                    <Div className="5">
-                        NODE.js
-                    </Div>
-                </Animate>
-            </div>
-        </>
+            </About>
+        </Main>
     );
 }
 

@@ -1,4 +1,18 @@
 import styled from "styled-components";
+import desktop from "../Assets/images/desktop.jpg";
+
+export const Build=styled.div`
+
+    display: flex;
+    flex-direction: column;
+    background-image: url(${desktop});
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right bottom;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+`;
 
 export const H1=styled.h1 `
 
@@ -16,15 +30,14 @@ export const Main=styled.div `
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 
 `;
 
 export const Animate=styled.div `
 
     display: flex;
+    margin: 0 1% 0 1%;
+    height: 39vh;
 
 `;
 
@@ -43,21 +56,23 @@ export const Footer=styled.div `
 export const About=styled.div `
 
     display: flex;
-    position: relative;
-    top: 30%;
-    box-shadow: 2% 10% 35% 1% rgba(153,153,153,0.2);
-    cursor: pointer;
+    flex-direction: column;
+    margin: 0 2% 0;
+    color: white;
+    height: 37vh;
 
 `;
 
-export const Ul=styled.button `
+export const Ul=styled.ul `
 
     display: flex;
-    flex-direction: column;
+    width: 46%;
+    margin: 3% 0.5%;
+    position: absolute;
 
 `;
 
-export const Li=styled.a `
+export const Li=styled.li `
 
     display: flex;
 
