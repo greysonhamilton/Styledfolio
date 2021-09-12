@@ -5,7 +5,7 @@ const Heading = styled.div`
 
     display: flex;
     flex-direction: column;
-    font-size: 2.5rem;
+    font-size: 2rem;
     width: 12%;
     background-color: rgb(19, 19, 57,0.7);
     margin: 3% 0 1% 80%;
@@ -46,6 +46,7 @@ const Li = styled.li`
 const Anchor = styled.a`
 
     color: white;
+    font-size: 1.8rem;
     text-decoration: none;
     
     &:link, &:visited {
