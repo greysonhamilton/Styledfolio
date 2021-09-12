@@ -30,6 +30,7 @@ export const Main=styled.div `
 
     display: flex;
     flex-direction: column;
+    font-size: 1.8rem;
 
 `;
 

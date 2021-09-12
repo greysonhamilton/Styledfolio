@@ -5,6 +5,7 @@ const Heading = styled.div`
 
     display: flex;
     flex-direction: column;
+    font-size: 2.5rem;
     width: 12%;
     background-color: rgb(19, 19, 57,0.7);
     margin: 3% 0 1% 80%;
