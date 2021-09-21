@@ -13,6 +13,6 @@ export const Menu = [
     },
     {
     title: "Vanima's Art Gallery",
-    url: "https://vanima-art-gallery.herokuapp.com"
+    url: "https://galleryofvanima.herokuapp.com"
     }
 ];
