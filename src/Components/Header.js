@@ -8,6 +8,7 @@ const Heading = styled.div`
     font-size: 2rem;
     width: 12%;
     background-color: rgb(19, 19, 57,0.7);
+    justify-content: center;
     margin: 3% 0 1% 80%;
     padding: 1%;
     height: 2vh;
