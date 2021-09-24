@@ -86,7 +86,7 @@ export const Ul=styled.ul `
 
     display: flex;
     width: 46%;
-    margin: 3% 0.5%;
+    margin: 5% 0.5%;
     position: absolute;
 
 `;

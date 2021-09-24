@@ -12,7 +12,7 @@ export const Menu = [
     url: "https://star-wars-character-sheet.vercel.app"
     },
     {
-    title: "Vanima's Art Gallery",
+    title: "Vanima's Art",
     url: "https://galleryofvanima.vercel.app/"
     }
 ];

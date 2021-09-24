@@ -6,7 +6,7 @@ const Heading = styled.div`
     display: flex;
     flex-direction: column;
     font-size: 2rem;
-    width: 12%;
+    width: 18%;
     background-color: rgb(19, 19, 57,0.7);
     justify-content: center;
     margin: 3% 0 1% 80%;
@@ -29,8 +29,8 @@ const Ul = styled.ul `
 
     display: flex;
     flex-direction: column;
-    width: 12%;
-    margin: 2.25% 0 0 -1%;
+    width: 18%;
+    margin: 3% 0 0 -1%;
     padding: 1%;
     background-color: rgb(19, 19, 57,0.7);
     position: absolute;
@@ -47,7 +47,8 @@ const Li = styled.li`
 const Anchor = styled.a`
 
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+    padding: 2%;
     text-decoration: none;
     
     &:link, &:visited {
