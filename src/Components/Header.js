@@ -21,6 +21,10 @@ const Container = styled.div`
     color: white;
     justify-content: center;
     
+    &:hover, &:link, &:visited, &:active {
+        text-decoration: none;
+        border: none;
+    }
 `;
 
 const Ul = styled.ul `
