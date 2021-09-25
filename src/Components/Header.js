@@ -28,7 +28,7 @@ const Ul = styled.ul `
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin: 25% 0 0 -1%;
+    margin: 21% 0 0 -1%;
     padding: 1%;
     background-color: rgb(19, 19, 57,0.7);
     position: absolute;

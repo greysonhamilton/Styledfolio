@@ -54,9 +54,9 @@ export const Skill = styled.div`
 
 export const P = styled.p`
 
-    width: 34%;
+    width: 100%;
     color: white;
-    background-color: rgb(0,0,0,0.5);
+    background-color: rgb(0,0,0,0.6);
 
 `;
 
