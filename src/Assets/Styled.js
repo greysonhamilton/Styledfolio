@@ -29,7 +29,7 @@ export const Div=styled.div `
 export const Main=styled.div `
 
     display: flex;
-    flex-direction: column;
+    width: 100%;
     font-size: 1.8rem;
 
 `;
@@ -76,17 +76,19 @@ export const About=styled.div `
 
     display: flex;
     flex-direction: column;
-    margin: 0 2% 0;
+    margin: 5% 2%;
     color: white;
-    height: 37vh;
+    height: 40vh;
 
 `;
 
 export const Ul=styled.ul `
 
     display: flex;
-    width: 46%;
-    margin: 5% 0.5%;
+    width: 50%;
+    font-size: 1.4rem;
+    background-color: rgba(0,0,0,0.7);
+    margin: 8% 0.5%;
     position: absolute;
 
 `;

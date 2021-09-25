@@ -5,12 +5,10 @@ const Heading = styled.div`
 
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
-    width: 18%;
+    font-size: 1.8rem;
     background-color: rgb(19, 19, 57,0.7);
     justify-content: center;
-    margin: 3% 0 1% 80%;
-    padding: 1%;
+    margin: 2% 0 1% 65%;
     height: 2vh;
 
 `;
