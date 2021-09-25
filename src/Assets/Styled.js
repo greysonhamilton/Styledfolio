@@ -39,7 +39,7 @@ export const Animate=styled.div `
 
     display: flex;
     flex-direction: column;
-    margin: 23% 0 0 18%;
+    margin: 28% 0 0 18%;
     width: 40%;
     justify-content: space-around;
 

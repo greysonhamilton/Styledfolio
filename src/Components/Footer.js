@@ -18,7 +18,9 @@ const Container = styled.div`
 
 const Social = styled.a`
 
-    a
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     
 `;
 
