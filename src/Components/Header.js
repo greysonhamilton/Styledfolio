@@ -9,7 +9,7 @@ const Heading = styled.div`
     background-color: rgb(19, 19, 57,0.7);
     justify-content: center;
     margin: 2% 0 1% 65%;
-    height: 2vh;
+    height: 5vh;
 
 `;
 

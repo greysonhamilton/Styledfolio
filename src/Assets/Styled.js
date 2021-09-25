@@ -30,7 +30,8 @@ export const Main=styled.div `
 
     display: flex;
     width: 100%;
-    font-size: 1.8rem;
+    height: 86vh;
+    font-size: 1.7rem;
 
 `;
 
@@ -38,10 +39,9 @@ export const Animate=styled.div `
 
     display: flex;
     flex-direction: column;
-    margin: 0 1% 0 65%;
+    margin: 23% 0 0 18%;
     width: 40%;
-    justify-content: space evenly;
-    height: 39vh;
+    justify-content: space-around;
 
 `;
 
@@ -88,7 +88,7 @@ export const Ul=styled.ul `
     width: 50%;
     font-size: 1.4rem;
     background-color: rgba(0,0,0,0.7);
-    margin: 8% 0.5%;
+    margin: 15% 0.5%;
     position: absolute;
 
 `;

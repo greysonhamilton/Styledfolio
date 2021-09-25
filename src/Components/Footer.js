@@ -7,28 +7,24 @@ import linkedin from '../Assets/images/linkedin.png';
 const Footing = styled.div`
 
     display: flex;
-    width: 100%;
-    align-self: center;
-    height: 7vh;
     
 `;
 
 const Container = styled.div`
 
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+
 `;
 
 const Social = styled.a`
 
-    align-self: center;
+    a
     
-    `;
+`;
 
 const SocialImg = styled.img`
 
-    width: 30%;
+    width: 45%;
     align-self: center;
 
 `;
