@@ -55,6 +55,8 @@ html {
 
 body {
 	display: flex;
+	text-decoration: none;
+	border: none;
 }
 
 div#root {
