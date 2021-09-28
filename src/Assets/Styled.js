@@ -46,14 +46,13 @@ export const Animate=styled.div `
 
     display: flex;
     flex-direction: column;
-    margin: 28% 0 0 18%;
-    width: 40%;
-    justify-content: space-around;
+    margin: 28% 0 0;
+    width: 80%;
+    justify-content: space-evenly;
 
     @media (min-width: 1024px) {
         width: 65%;
         margin: 15% 0 0 40%;
-        justify-content: space-evenly;
     }
 `;
 
@@ -90,6 +89,7 @@ export const About=styled.div `
     flex-direction: column;
     margin: 5% 2%;
     color: white;
+    width: 100%;
     height: 40vh;
 
 `;
@@ -100,16 +100,12 @@ export const Ul=styled.ul `
     width: 45%;
     font-size: 1.4rem;
     background-color: rgba(0,0,0,0.7);
-    margin: 15% 0;
+    margin: 13% 0;
     padding: 1%;
     position: absolute;
 
     @media (min-width: 500px) {
         font-size: 1.7rem;
-    }
-
-    @media (min-width: 600px) {
-        margin: 13% 0;
     }
     
     @media (min-width: 750px) {
