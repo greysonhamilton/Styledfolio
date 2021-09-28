@@ -51,7 +51,7 @@ export const Animate=styled.div `
     justify-content: space-evenly;
 
     @media (min-width: 1024px) {
-        width: 65%;
+        width: 100%;
         margin: 15% 0 0 40%;
     }
 `;
@@ -102,6 +102,7 @@ export const Ul=styled.ul `
     background-color: rgba(0,0,0,0.7);
     margin: 13% 0;
     padding: 1%;
+    overflow-y: auto;
     position: absolute;
 
     @media (min-width: 500px) {
