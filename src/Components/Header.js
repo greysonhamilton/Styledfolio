@@ -10,7 +10,10 @@ const Heading = styled.div`
     justify-content: center;
     margin: 2% 0 1% 58%;
     height: 5vh;
-
+    
+    @media (min-width: 500px) {
+        font-size: 2.4rem;
+    }
 `;
 
 const Container = styled.div`
@@ -33,6 +36,21 @@ const Ul = styled.ul `
     background-color: rgb(19, 19, 57,0.7);
     position: absolute;
 
+    @media (min-width: 500px) {
+        font-size: 2.2rem;
+    }
+    
+    @media (min-width: 600px) {
+        margin: 28% 0 0 0;
+    }
+
+    @media (min-width: 900px) {
+        margin: 24% 0 0 0;
+    }
+
+    @media (min-width: 1024px) {
+        margin: 22% 0 0 0;
+    }
 `;
 
 const Li = styled.li`
@@ -53,6 +71,11 @@ const Anchor = styled.a`
         text-decoration: none;
         color: white;
     }
+    
+    @media (min-width: 500px) {
+        font-size: 1.8rem;
+    }
+
 `;
 
 const Header = ({ title, items }) => {

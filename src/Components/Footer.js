@@ -7,6 +7,7 @@ import linkedin from '../Assets/images/linkedin.png';
 const Footing = styled.div`
 
     display: flex;
+    justify-content: space-evenly;
     
 `;
 

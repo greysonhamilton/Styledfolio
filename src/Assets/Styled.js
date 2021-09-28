@@ -33,6 +33,13 @@ export const Main=styled.div `
     height: 86vh;
     font-size: 1.7rem;
 
+    @media (min-width: 500px) {
+        font-size: 2.2rem;
+    }
+    
+    @media (min-width: 750px) {
+        font-size: 2.4rem;
+    }
 `;
 
 export const Animate=styled.div `
@@ -43,6 +50,11 @@ export const Animate=styled.div `
     width: 40%;
     justify-content: space-around;
 
+    @media (min-width: 1024px) {
+        width: 65%;
+        margin: 15% 0 0 40%;
+        justify-content: space-evenly;
+    }
 `;
 
 export const Skill = styled.div`
@@ -85,12 +97,25 @@ export const About=styled.div `
 export const Ul=styled.ul `
 
     display: flex;
-    width: 50%;
+    width: 45%;
     font-size: 1.4rem;
     background-color: rgba(0,0,0,0.7);
-    margin: 15% 0.5%;
+    margin: 15% 0;
+    padding: 1%;
     position: absolute;
 
+    @media (min-width: 500px) {
+        font-size: 1.7rem;
+    }
+
+    @media (min-width: 600px) {
+        margin: 13% 0;
+    }
+    
+    @media (min-width: 750px) {
+        font-size: 2rem;
+        margin: 6% 0;
+    }
 `;
 
 export const Li=styled.li `
